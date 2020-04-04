@@ -1,5 +1,6 @@
 const express = require('express');
 const mongodb = require('mongodb');
+require('dotenv').config();
 
 const router = express.Router();
 
